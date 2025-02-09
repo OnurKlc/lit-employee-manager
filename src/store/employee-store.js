@@ -12,7 +12,7 @@ class EmployeeStore {
   }
 
   getEmployees() {
-    return [...this._employees, ...this._employees, ...this._employees, ...this._employees, ...this._employees, ...this._employees, ...this._employees, ...this._employees];
+    return [...this._employees];
   }
 
   addEmployee(employee) {
