@@ -3,7 +3,8 @@
   "extends": ["eslint:recommended"],
   "parser": "@babel/eslint-parser",
   "globals": {
-    "chai": "readonly"
+    "chai": "readonly",
+    "Set": "readonly"
   },
   "parserOptions": {
     "requireConfigFile": false,
@@ -11,10 +12,12 @@
   },
   "env": {
     "browser": true,
-    "mocha": true
+    "mocha": true,
+    "es6": true
   },
   "rules": {
-    "no-unexpected-multiline": "off"
+    "no-unexpected-multiline": "off",
+    "no-case-declarations": "off"
   },
   "overrides": [
     {

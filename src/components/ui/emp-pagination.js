@@ -1,5 +1,4 @@
 import { LitElement, html, css } from 'lit';
-import { i18n } from '../../services/translations.js';
 
 export class EmployeePagination extends LitElement {
   static properties = {
