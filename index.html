@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Management System</title>
+    <script src="./node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+    <script src="./node_modules/lit/polyfill-support.js"></script>
+    <script type="module" src="./src/emp-app.js"></script>
+    <style>
+      :root {
+        --primary-color: #ff6200;
+        --primary-color-light: #ff8533;
+        --primary-color-dark: #cc4e00;
+        --secondary-color: #f5f5f5;
+        --secondary-color-dark: #e0e0e0;
+        --text-color: #333;
+        --border-color: #ddd;
+        --error-color: #dc3545;
+        --error-bg-color: #fff8f8;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <emp-app></emp-app>
+  </body>
+</html>
